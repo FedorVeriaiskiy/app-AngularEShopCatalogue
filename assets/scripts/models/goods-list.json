@@ -1,0 +1,277 @@
+[
+    {
+        "id": "ONLY-VITUS-T-Shirt-basic-sample-black1",
+        "model": "VITUS - T-Shirt basic - sample/black",
+        "company": "ONLY",
+        "group": "t-shirts",
+        "mainImgUrl": "assets/img/goods-items/group_1/cloth_1/1product-only-vitus-tshirt-basic-zwart-6934951.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_1/cloth_1/1product-only-vitus-tshirt-basic-zwart-6934951.jpg",
+            "assets/img/goods-items/group_1/cloth_1/ON321D0DW-Q11@4.jpg",
+            "assets/img/goods-items/group_1/cloth_1/ON321D0DW-Q11@5.jpg"
+        ],
+        "price": 19.95,
+        "priceOld": "21.10",
+        "priceDiscount": 15,
+        "filterPriceRangeMin": 0,
+        "availability": "10",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Even-Odd-T-Shirt-print-white",
+        "model": "T-Shirt print - white",
+        "company": "Even&Odd",
+        "group": "t-shirts",
+        "mainImgUrl": "assets/img/goods-items/group_1/cloth_2/EV421D07Z-A00@3.1.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_1/cloth_2/EV421D07Z-A00@3.1.jpg",
+            "assets/img/goods-items/group_1/cloth_2/EV421D07Z-A00@4.1.jpg",
+            "assets/img/goods-items/group_1/cloth_2/EV421D07Z-A00@5.1.jpg"
+        ],
+        "price": 16.95,
+        "priceOld": "",
+        "priceDiscount": 16.95,
+        "filterPriceRangeMin": 0,
+        "availability": "25",
+        "deliveryType": "included"
+    },
+    {
+        "id": "ONLY-LAINE-T-Shirt-basic-mood-indigo",
+        "model": "LAINE - T-Shirt basic - mood indigo",
+        "company": "ONLY",
+        "group": "t-shirts",
+        "mainImgUrl": "assets/img/goods-items/group_1/cloth_3/ON321D0D7-K12@5.1.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_1/cloth_3/ON321D0D7-K12@5.1.jpg",
+            "assets/img/goods-items/group_1/cloth_3/ON321D0D7-K12@6.1.jpg",
+            "assets/img/goods-items/group_1/cloth_3/ON321D0D7-K12@7.1.jpg"
+        ],
+        "price": 16.95,
+        "priceOld": "",
+        "priceDiscount": 16.95,
+        "filterPriceRangeMin": 0,
+        "availability": "15",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Even-Odd-T-Shirt-basic-black",
+        "model": "T-Shirt basic - black",
+        "company": "Even&Odd",
+        "group": "t-shirts",
+        "mainImgUrl": "assets/img/goods-items/group_1/cloth_4/EV421D090-Q11@3.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_1/cloth_4/EV421D090-Q11@3.jpg",
+            "assets/img/goods-items/group_1/cloth_4/EV421D090-Q11@4.jpg",
+            "assets/img/goods-items/group_1/cloth_4/VE121D0GJ-A11@6.jpg"
+        ],
+        "price": 16.95,
+        "priceOld": "",
+        "priceDiscount": 15,
+        "filterPriceRangeMin": 0,
+        "availability": "24",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Vero-Moda-PLATINUM-Top-snow-white",
+        "model": "PLATINUM - Top - snow white",
+        "company": "Vero Moda",
+        "group": "tops",
+        "mainImgUrl": "assets/img/goods-items/group_1/cloth_5/VE121D0GJ-A11@7.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_1/cloth_5/VE121D0GJ-A11@7.jpg",
+            "assets/img/goods-items/group_1/cloth_5/VE121D0GJ-A11@5.jpg",
+            "assets/img/goods-items/group_1/cloth_5/VE121D0GJ-A11@6.jpg"
+        ],
+        "price": 29.95,
+        "priceOld": "",
+        "priceDiscount": 25,
+        "filterPriceRangeMin": 0,
+        "availability": "12",
+        "deliveryType": "included"
+    },
+
+
+    {
+        "id": "LTB-JUDIE-Jeans-Shorts-stripy-bleach-wash",
+        "model": "JUDIE - Jeans Shorts - stripy bleach wash",
+        "company": "LTB",
+        "group": "jeans-shorts",
+        "mainImgUrl": "assets/img/goods-items/group_2/cloth_1/LT121A04A-K14@2.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_2/cloth_1/LT121A04A-K14@2.jpg",
+            "assets/img/goods-items/group_2/cloth_1/LT121A04A-K14@3.jpg",
+            "assets/img/goods-items/group_2/cloth_1/LT121A04A-K14@4.jpg"
+        ],
+        "price": 36,
+        "priceOld": "",
+        "priceDiscount": 36,
+        "filterPriceRangeMin": 0,
+        "availability": "30",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Even-Odd-Jeans-Shorts-light-denim",
+        "model": "Jeans Shorts - light denim",
+        "company": "Even&Odd",
+        "group": "jeans-shorts",
+        "mainImgUrl": "assets/img/goods-items/group_2/cloth_2/EV421A02F-K11@7.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_2/cloth_2/EV421A02F-K11@7.jpg",
+            "assets/img/goods-items/group_2/cloth_2/EV421A02F-K11@1.jpg",
+            "assets/img/goods-items/group_2/cloth_2/EV421A02F-K11@2.jpg"
+        ],
+        "price": 49.95,
+        "priceOld": "",
+        "priceDiscount": 45,
+        "filterPriceRangeMin": 0,
+        "availability": "15",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Esprit-Jeans-Shorts-dark-stone",
+        "model": "Jeans Shorts - dark stone",
+        "company": "Esprit",
+        "group": "jeans-shorts",
+        "mainImgUrl": "assets/img/goods-items/group_2/cloth_3/ED121S000-K11@7.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_2/cloth_3/ED121S000-K11@7.jpg",
+            "assets/img/goods-items/group_2/cloth_3/ED121S000-K11@5.jpg",
+            "assets/img/goods-items/group_2/cloth_3/ED121S000-K11@6.jpg"
+        ],
+        "price": 49.95,
+        "priceOld": "",
+        "priceDiscount": 45,
+        "filterPriceRangeMin": 0,
+        "availability": "40",
+        "deliveryType": "included"
+    },
+    {
+        "id": "LTB-JORDANIE-Jeans-Shorts-blue-hippie",
+        "model": "JORDANIE - Jeans Shorts - blue hippie",
+        "company": "LTB",
+        "group": "jeans-shorts",
+        "mainImgUrl": "assets/img/goods-items/group_2/cloth_4/LT121A04Y-A11@7.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_2/cloth_4/LT121A04Y-A11@7.jpg",
+            "assets/img/goods-items/group_2/cloth_4/LT121A04Y-A11@5.jpg",
+            "assets/img/goods-items/group_2/cloth_4/LT121A04Y-A11@6.jpg"
+        ],
+        "price": 44.95,
+        "priceOld": "",
+        "priceDiscount": 44.95,
+        "filterPriceRangeMin": 0,
+        "availability": "16",
+        "deliveryType": "included"
+    },
+    {
+        "id": "LTB-VERA-Jeans-Shorts-celia-wash",
+        "model": "VERA - Jeans Shorts - celia wash",
+        "company": "LTB",
+        "group": "jeans-shorts",
+        "mainImgUrl": "assets/img/goods-items/group_2/cloth_5/LT121A04B-K11@7.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_2/cloth_5/LT121A04B-K11@7.jpg",
+            "assets/img/goods-items/group_2/cloth_5/LT121A04B-K11@5.jpg",
+            "assets/img/goods-items/group_2/cloth_5/LT121A04B-K11@6.jpg"
+        ],
+        "price": 34.95,
+        "priceOld": "",
+        "priceDiscount": 34.95,
+        "filterPriceRangeMin": 0,
+        "availability": "12",
+        "deliveryType": "included"
+    },
+
+
+    {
+        "id": "Hurley-Top-black",
+        "model": "Top - black",
+        "company": "Hurley",
+        "group": "tops",
+        "mainImgUrl": "assets/img/goods-items/group_3/cloth_1/HU821D00Z-Q12@2.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_3/cloth_1/HU821D00Z-Q12@2.jpg",
+            "assets/img/goods-items/group_3/cloth_1/HU821D00Z-Q12@3.jpg",
+            "assets/img/goods-items/group_3/cloth_1/HU821D00Z-Q12@4.jpg"
+        ],
+        "price": 27.95,
+        "priceOld": "",
+        "priceDiscount": 27.95,
+        "filterPriceRangeMin": 0,
+        "availability": "5",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Even-Odd-Top-beige-beige-melange",
+        "model": "Top - beige/beige melange",
+        "company": "Even&Odd",
+        "group": "tops",
+        "mainImgUrl": "assets/img/goods-items/group_3/cloth_2/EV421D09A-B12@3.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_3/cloth_2/EV421D09A-B12@3.jpg",
+            "assets/img/goods-items/group_3/cloth_2/EV421D09A-B12@4.jpg",
+            "assets/img/goods-items/group_3/cloth_2/EV421D09A-B12@5.jpg"
+        ],
+        "price": 19.95,
+        "priceOld": "",
+        "priceDiscount": 19.95,
+        "filterPriceRangeMin": 0,
+        "availability": "25",
+        "deliveryType": "included"
+    },
+
+    {
+        "id": "Rip-Curl-ELLY-Top-black",
+        "model": "ELLY - Top - black",
+        "company": "Rip Curl",
+        "group": "tops",
+        "mainImgUrl": "assets/img/goods-items/group_3/cloth_3/RI721D023-Q00@7.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_3/cloth_3/RI721D023-Q00@7.jpg",
+            "assets/img/goods-items/group_3/cloth_3/RI721D023-Q00@5.jpg",
+            "assets/img/goods-items/group_3/cloth_3/RI721D023-Q00@6.jpg"
+        ],
+        "price": 29.95,
+        "priceOld": "",
+        "priceDiscount": 27,
+        "filterPriceRangeMin": 0,
+        "availability": "50",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Billabong-BEACH-BABE-Top-black",
+        "model": "BEACH BABE - Top - black",
+        "company": "Billabong",
+        "group": "tops",
+        "mainImgUrl": "assets/img/goods-items/group_3/cloth_4/BI721D000-Q00@5.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_3/cloth_4/BI721D000-Q00@5.jpg",
+            "assets/img/goods-items/group_3/cloth_4/BI721D000-Q00@4.jpg",
+            "assets/img/goods-items/group_3/cloth_4/BI721D000-Q00@7.jpg"
+        ],
+        "price": "19.95",
+        "priceOld": "",
+        "priceDiscount": 18,
+        "filterPriceRangeMin": 0,
+        "availability": "18",
+        "deliveryType": "included"
+    },
+    {
+        "id": "Herrlicher-GESA-Top-moos",
+        "model": "GESA - Top - moos",
+        "company": "Herrlicher",
+        "group": "tops",
+        "mainImgUrl": "assets/img/goods-items/group_3/cloth_5/4HE21D004-B11@4.1.jpg",
+        "galleryImgUrl": [
+            "assets/img/goods-items/group_3/cloth_5/4HE21D004-B11@4.1.jpg",
+            "assets/img/goods-items/group_3/cloth_5/4HE21D004-B11@5.1.jpg",
+            "assets/img/goods-items/group_3/cloth_5/4HE21D004-B11@7.1.jpg"
+        ],
+        "price": 54.95,
+        "priceOld": "",
+        "priceDiscount": 54.95,
+        "filterPriceRangeMin": 0,
+        "availability": "20",
+        "deliveryType": "included"
+    }
+]

@@ -1,0 +1,109 @@
+<!-- "Goods list" template -->
+<div id="block-top" class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-10 col-md-offset-1 content">
+            <div class="row">
+                <div class="col-md-12 title-block">
+                    <h1>Ultra Shop</h1>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10">
+               <span>{{(goods | filter:group | filter:company | filter:priceRange).length}}</span> goods found
+           </div>
+           <div class="col-md-2">
+            <select id="goods-control-order-by" ng-model="orderProp" class="form-control col-md-6">
+               <option value="group">sort by type</option>
+               <option value="price">sort by price</option>
+           </select>
+       </div>
+   </div>
+   
+   <div class="row filters-block">
+    <div class="col-md-3">                  
+        <select id="goods-filter-group" class="form-control col-md-12" ng-model="group" ng-options="key as value for (key, value) in filterGroupsObj">
+            <option value = '' selected>group</option>
+        </select>                                   
+    </div>
+
+    <div class="col-md-3">
+        <select id="goods-filter-company" class="form-control col-md-12" ng-model="company" ng-options="key as value for (key, value) in filterCompaniesObj">
+            <option value = '' selected>company</option>                     
+        </select>                    
+    </div>
+
+    <div class="col-md-4 filter-slider">   
+        <div class="slider-limit-min">{{lower_price_bound}}</div>              
+        <slider floor="0" ceiling="100" ng-model-low="lower_price_bound" class="slider-stripe" ng-model-high="upper_price_bound"></slider>
+        <div class="slider-limit-max">{{upper_price_bound}}</div>
+    </div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-info col-md-12" ng-click="resetFilter()">Reset</button>
+    </div>
+</div>        
+
+<ul class="goods-list row">
+    <li ng-repeat="item in goods | filter:group | filter:company | filter:priceRange | orderBy:orderProp" class="col-md-3">
+        <div class="well item-block">
+            <div class="item-block-image">
+                <img ng-src="{{item.mainImgUrl}}" ng-click="showElem(item);scrollToTop();" class="item-thumb-img"/>
+            </div>
+            <h2 class="item-title" ng-click="showElem(item);scrollToTop();">{{item.model}}</h2>
+            <div class="item-data">
+                <span class="item-company">{{item.company}}</span>
+                <span class="item-group">{{item.group}}</span>
+            </div>
+            <div class="item-delivery-type">Delivery: {{item.deliveryType}}</div>
+
+            <div class="item-price-block">
+                <span class="price-old">{{item.priceDiscount}}</span>
+                <span class="price">{{item.price}}</span>
+                <span class="price-discount">{{item.priceOld}}</span>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<div class="modal-item-block col-md-8 col-md-offset-2">
+    <button class="btn-close-modal" ng-click="closeElemModal();"></button>
+
+    <h1 class="modal-item-title">{{curItem.model}}</h1>
+    <img ng-src="{{curItem.mainImgUrl}}" class="modal-item-main-img"/>
+    
+    <div class="modal-item-price-block">
+        <span class="price">{{curItem.price}}</span>
+        <span class="price-discount">{{curItem.priceOld}}</span>
+        <span class="price-old">{{curItem.priceDiscount}}</span>
+    </div>
+
+    <span class="modal-item-company">{{curItem.company}}</span>
+    <span class="modal-item-group">{{curItem.group}}</span>
+
+    <div class="modal-item-delivery-type">Delivery: {{curItem.deliveryType}}</div>
+    
+    <button id="btn-add-item-to-cart" class="btn btn-primary btn-modal-add-to-cart">Add to cart</button>
+
+    <h2 class="title-list-simillar-goods">Simillar goods</h2>
+    <ul class="item-simillar-goods-list">
+        <li ng-repeat="simillarItem in goods | filter: curItemGroup" class="col-md-6">
+            <div class="well item-simillar-block">
+              <div class="item-block-image">
+                <img ng-src="{{simillarItem.mainImgUrl}}" ng-click="showSimillarElem(simillarItem);scrollToTop();" class="item-thumb-img"/>
+            </div>
+
+            <h2 class="item-title" ng-click="showSimillarElem(simillarItem);scrollToTop();">{{simillarItem.model}}</h2>
+
+            <div class="item-price-block">
+                <span class="price-old">{{simillarItem.priceDiscount}}</span>
+                <span class="price">{{simillarItem.price}}</span>
+                <span class="price-discount">{{simillarItem.priceOld}}</span>
+            </div>
+        </div>
+    </li>
+</ul>
+</div>
+<div class="modal-background" ng-click="closeElemModal()"></div>
+</div>
+</div>
+</div>
+</div>

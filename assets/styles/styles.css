@@ -1,0 +1,205 @@
+/* general styles */
+
+ul {
+    padding-left: 0;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.row > div {
+    margin-bottom: 15px;
+}
+
+/* catalog title-block */
+
+.title-block {
+    margin-bottom: 20px;
+}
+
+
+/* catalog - filters */
+
+.filters-block {
+    margin-bottom: 25px;
+}
+
+.filters-block > div {
+    margin-bottom: 15px;
+}
+
+.filter-slider {
+    display: block;
+    position: relative;
+    height: 34px;
+    padding-top: 1px;
+}
+
+.filter-slider .slider-stripe {
+    display: block;
+    width: auto !important;
+    margin: 14px 35px 0 25px !important;
+}
+
+.filter-slider .slider-limit-min,
+.filter-slider .slider-limit-max {
+    font-weight: bold;
+    position: absolute;
+    top: 8px;
+}
+
+.filter-slider .slider-limit-min {
+    left: 15px;
+}
+
+.filter-slider .slider-limit-max {
+    right: 15px;
+}
+
+
+/* catalog - goods list */
+
+ul.goods-list {
+    list-style-type: none;
+}
+
+ul li .item-block {
+    height: 430px;
+}
+
+ul .item-block-image {
+    display: block;
+    max-height: 220px;
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+
+ul li .item-thumb-img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+ul.goods-list li h2.item-title {
+    font-size: 25px;
+}
+
+ul.goods-list li .item-thumb-img:hover,
+ul.goods-list li .item-title:hover {
+    cursor: pointer;
+}
+
+ul.goods-list li .item-title:hover {
+    text-decoration: underline;
+}
+
+ul li .item-data > div {
+    display: block;
+}
+
+ul li .item-data .item-company {
+    font-weight: bold;
+}
+
+ul li .item-delivery-type {
+    color: gray;
+}
+
+ul.goods-list li .item-price-block > span {
+    margin-right: 5px;
+}
+
+ul li .item-price-block .price {
+    font-weight: bold;
+
+}
+
+ul li .item-price-block .price-discount {
+    font-weight: normal;
+    color: rgb(255, 0, 0);
+}
+
+ul li .item-price-block .price-old {
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+
+/* modal item block */
+
+.modal-item-block {
+    display: none;
+    position: absolute;
+    top: 50px;
+
+    background: #fff;
+    border: 1px solid #333;
+    border-radius: 10px;
+    z-index: 995;
+}
+
+.modal-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    z-index: 990;
+}
+
+.modal-item-block .btn-close-modal {
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: url('../img/btn-close-modal.png');
+    z-index: 999;
+}
+
+.modal-item-block .modal-item-main-img {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.modal-item-block .modal-item-title {
+    display: block;
+    text-align: center;
+}
+
+.modal-item-block .btn-modal-add-to-cart {
+    margin: 10px 0 20px;
+}
+
+.title-list-simillar-goods {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+ul.item-simillar-goods-list {
+    list-style-type: none;
+}
+
+ul.item-simillar-goods-list li {
+}
+
+ul.item-simillar-goods-list li .item-simillar-block {
+    height: 400px;
+}
+
+ul.item-simillar-goods-list li .item-thumb-img:hover,
+ul.item-simillar-goods-list li .item-title:hover {
+    cursor: pointer;
+}
+
+ul.item-simillar-goods-list li .item-title:hover {
+    text-decoration: underline;
+}
